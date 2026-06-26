@@ -1,6 +1,6 @@
 # Evaluating the Performance of Image Super-Resolution Baselines in the Presence of Spatially Correlated Pink Noise
 
-[cite_start]This repository contains the official Python implementation and simulation environment for analyzing how classical digital upscaling and linear filtering baselines perform under non-white, spatially correlated $1/f$ pink noise[cite: 1, 12, 119].
+This repository contains the official Python implementation and simulation environment for analyzing how classical digital upscaling and linear filtering baselines perform under non-white, spatially correlated $1/f$ pink noise[cite: 1, 12, 119].
 
 ##  Author
 * [cite_start]**Diganth Maruthi** 
