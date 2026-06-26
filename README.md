@@ -6,7 +6,7 @@ The project investigates how classical single-image super-resolution (SISR) upsc
 
 ---
 
-## 📌 Abstract / Summary
+## Abstract / Summary
 
 Traditional Single-Image Super-Resolution (SISR) frameworks heavily rely on the assumption that image degradation is caused by independent Additive White Gaussian Noise (AWGN). However, physical camera sensors, atmospheric scattering, and specialized imaging hardware often generate spatially correlated, low-frequency colored noise patterns in real-world settings. 
 
@@ -18,7 +18,7 @@ This study evaluates the performance of digital upscaling (**Bicubic Interpolati
 
 ---
 
-## 📊 Quantitative Results
+## Quantitative Results
 
 Quantitative tracking was conducted by calculating the pixel-by-pixel **Mean Squared Error (MSE)** between the original clean high-resolution targets and the reconstructed outputs. Lower numerical scores correspond to a reduction in digital reconstruction error.
 
@@ -32,7 +32,7 @@ Quantitative tracking was conducted by calculating the pixel-by-pixel **Mean Squ
 
 ---
 
-## 🔍 Visual Assessment & Framework Setup
+## Visual Assessment & Framework Setup
 
 The simulation dataset consists of high-resolution $300 \times 300$ pixel grayscale geometric target matrices designed specifically to facilitate edge tracking. 
 
@@ -44,7 +44,7 @@ The simulation dataset consists of high-resolution $300 \times 300$ pixel graysc
 
 ---
 
-## 💻 Environment & Requirements
+## Environment & Requirements
 
 All steps of this experiment were executed locally using a Python script.
 
