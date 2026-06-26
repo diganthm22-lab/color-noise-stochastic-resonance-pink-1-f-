@@ -7,7 +7,7 @@ This repository contains the official Python implementation and simulation envir
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 [cite_start]Single-image super-resolution (SISR) models traditionally assume image degradation is caused by independent Additive White Gaussian Noise (AWGN)[cite: 10]. [cite_start]However, physical camera sensors, atmospheric scattering, and hardware anomalies frequently introduce spatially correlated, low-frequency **pink noise** ($1/f$) patterns[cite: 11, 30]. 
 
 This study evaluates two classic pipelines:
@@ -19,7 +19,7 @@ This study evaluates two classic pipelines:
 
 ---
 
-## 📊 Results & Quantitative Evaluation
+## Results & Quantitative Evaluation
 
 [cite_start]The Mean Squared Error (MSE) scores across different noise intensities ($\sigma$) show that standalone upscaling retains pixel-level mathematical accuracy better than uniform linear filters[cite: 39, 43, 53].
 
@@ -34,7 +34,7 @@ This study evaluates two classic pipelines:
 
 ---
 
-## 🛠️ Methodology & Environment
+## Methodology & Environment
 
 The simulation pipeline consists of:
 1. [cite_start]**Downsampling:** High-resolution geometric target matrices ($300 \times 300$) downscaled to $150 \times 150$ using cubic pixel interpolation[cite: 68, 69].
@@ -48,7 +48,7 @@ The simulation pipeline consists of:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 Clone this repository and install the necessary computational modules:
