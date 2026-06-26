@@ -1,14 +1,14 @@
 # Evaluating the Performance of Image Super-Resolution Baselines in the Presence of Spatially Correlated Pink Noise
 
-This repository contains the official Python implementation and simulation environment for analyzing how classical digital upscaling and linear filtering baselines perform under non-white, spatially correlated $1/f$ pink noise[cite: 1, 12, 119].
+This repository contains the official Python implementation and simulation environment for analyzing how classical digital upscaling and linear filtering baselines perform under non-white, spatially correlated $1/f$ pink noise.
 
 ##  Author
-* [cite_start]**Diganth Maruthi** 
+**Diganth Maruthi** 
 
 ---
 
 ## Project Overview
-Single-image super-resolution (SISR) models traditionally assume image degradation is caused by independent Additive White Gaussian Noise (AWGN)[cite: 10]. [cite_start]However, physical camera sensors, atmospheric scattering, and hardware anomalies frequently introduce spatially correlated, low-frequency **pink noise** ($1/f$) patterns[cite: 11, 30]. 
+Single-image super-resolution (SISR) models traditionally assume image degradation is caused by independent Additive White Gaussian Noise (AWGN). However, physical camera sensors, atmospheric scattering, and hardware anomalies frequently introduce spatially correlated, low-frequency **pink noise** ($1/f$) patterns[cite: 11, 30]. 
 
 This study evaluates two classic pipelines:
 1. [cite_start]**Method A:** Bicubic Upscaling Only [cite: 80]
@@ -43,8 +43,8 @@ The simulation pipeline consists of:
 
 ### Environment Requirements
 * **Language:** Python 3.12 [cite: 66]
-* **Architecture:** Executed locally on Apple M4 silicon [cite: 66]
-* **Core Libraries:** `numpy`, `opencv-python` (`cv2`), `scipy`, `matplotlib` [cite: 66, 84]
+* **Architecture:** Executed locally on Apple M4 silicon
+* **Core Libraries:** `numpy`, `opencv-python` (`cv2`), `scipy`, `matplotlib` 
 
 ---
 
